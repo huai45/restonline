@@ -118,7 +118,7 @@ function showBill(table_id) {
     ajax_flag = 1;
 	$.post("/operation/checkTableState.html", {table_id:table_id}, function (result) {
 		var obj = $.parseJSON(result);
-	        //alert(result);         
+	        //alert(result);
 		if (obj.success == "false") {
 			return false;
 		}
