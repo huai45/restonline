@@ -16,9 +16,9 @@ String product = "RestaurantOn";
 <html>
 <head>
 <title>RestaurantOn Login</title>
-<link rel="stylesheet" href="/resource/MetroUICSS/min/metro-bootstrap.min.css">
-<link rel="stylesheet" href="/resource/MetroUICSS/min/metro-bootstrap-responsive.min.css">
-<link rel="stylesheet" href="/resource/MetroUICSS/min/iconFont.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/MetroUICSS/min/metro-bootstrap.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/MetroUICSS/min/metro-bootstrap-responsive.min.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resource/MetroUICSS/min/iconFont.min.css">
 <style>
 body{
     margin:0px;padding:0px;
@@ -31,9 +31,9 @@ body{
     background-color:<%= color[1] %>;
 }
 </style>    
-<script src="/resource/jquery-easyui-1.3.1/jquery-1.8.0.min.js"></script>
-<script src="/resource/MetroUICSS/jquery/jquery.widget.min.js"></script>
-<script src="/resource/MetroUICSS/min/metro.min.js"></script>
+<script src="${pageContext.request.contextPath}/resource/jquery-easyui-1.3.1/jquery-1.8.0.min.js"></script>
+<script src="${pageContext.request.contextPath}/resource/MetroUICSS/jquery/jquery.widget.min.js"></script>
+<script src="${pageContext.request.contextPath}/resource/MetroUICSS/min/metro.min.js"></script>
 <script>
 $(document).ready(function(){
 
@@ -62,7 +62,7 @@ $(document).ready(function(){
 </head>
 <body class="metro" style="margin:0px;padding:0px;padding-top:20px;padding-left:140px;">
 <div id="center" style="height:620px;width:1000px;border:solid 0px red;position:relative;">
-<image src="/app/login/image/mn.jpg" style="position:absolute;height:340px;width:480px;top:10px;left:40px;"/>
+<image src="${pageContext.request.contextPath}/app/login/image/mn.jpg" style="position:absolute;height:340px;width:480px;top:10px;left:40px;"/>
 <div style="position:absolute;height:150px;width:480px;top:350px;left:40px;background:<%= color[0] %>;color:#FFF;font-size:24px;padding:20px;font-family:Microsoft Yahei;">
     在线餐饮管理平台，运营变得如此轻松<br/><span style="font-weight:bold;font-size:16px;"></span>
 </div>
